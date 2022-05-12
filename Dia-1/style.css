@@ -196,6 +196,11 @@ p{
   flex-direction: column;
   border-radius: 16px ;
 }
+.containervagas:hover{
+  color: rgb(223, 211, 211);
+  border: 1px solid #364f83;
+
+}
 .design2{
   width: 768px;
   color: #101828;
