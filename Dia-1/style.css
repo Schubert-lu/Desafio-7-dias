@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+*{
+  margin: 0%;
+  font-family: 'Inter';
+}
+*header{
+  max-width: 1440px;
+}
+.flexbox-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+.flexbox-item{
+margin-top: 28px;
+margin-bottom: 28px;
+}
+.title-image{
+  padding-left: 112px;
+  padding-right: 8px;
+}
+a{
+  text-decoration: none;
+  color: #667085;
+  margin: 32px;
+  
+}
+a:hover{
+  color: #2969e9;
+}
+.entrar{
+  margin-left: 398px;
+}
+.button-title{
+  width: 112px;
+  height: 44px;
+  background-color: #8E2424;
+  color: #FFFFFF;
+  padding: 5px, 9px, 5px, 9px ;
+  background: #8E2424;
+  border: 1px solid #8E2424;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.button-title:hover{
+  background-color: #b84848;
+  color: white;
+  box-shadow: 0px 1px 2px rgba(37, 45, 61, 0.05);
+  border: 1px solid #b84848;
+}
+
+.container1{
+  display: flex;
+  max-height: 407px;
+  flex-direction: column;
+  align-items: center;
+}
+.sobrenos{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8E2424;
+  padding-top: 96px ;
+}
+.diferentes{
+  margin-top: 24px;
+  margin-bottom: 36px;
+  font-size: 48px;
+  font-family: 'Inter';
+  color: #101828;
+  font-weight: 600px;
+  line-height: 60px;
+}
+p{
+  max-width: 791px;
+  font-size: 20px;
+  font-family: 'Inter';
+  height: 60px;
+  text-align: center;
+  color: #667085;
+  padding-bottom: 107px;
+  line-height: 30px;
+}
+.container2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.box-body{
+  width: 280px;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+.box-title{
+  font-family: 'Inter';
+  font-style: normal;
+  color: #8E2424;
+  font-size: 60px;
+  line-height: 72px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+.b-subtitle{
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #101828;
+  padding-bottom: 8px;
+  padding-top: 12px;
+}
+.b-description{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.container3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box-vagas{
+  margin-top: 100px;
+  margin-bottom: 20px;
+  background: rgba(142, 36, 36, 0.05);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 12px;
+  width: 125px;
+  height: 28px;
+  color: #8E2424;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+.talentos{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  color: #101828;
+  letter-spacing: -0.02em;
+  padding-bottom: 20px;
+}
+.equipe{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #667085;
+  padding-bottom: 64px;
+}
+.reuniao{
+  border-radius: 15px;
+  padding-bottom: 64px;
+}
+.design{
+  width: 768px;
+  color: #101828;
+  height: 30px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  padding-bottom: 32px;
+}
+.containervagas{
+  height: 136px;
+  border: 1px solid #EAECF0;
+  width: 768px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px ;
+}
+.design2{
+  width: 768px;
+  color: #101828;
+  height: 30px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  padding-left: 24px;
+  padding-top: 24px;
+  padding-right: 24px;
+  padding-bottom: 32px;
+}
+.descricaovaga{
+  display: flex;
+  flex-direction: row;
+}
+.vagadesc{
+  color: #667085;
+  height: 24px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  padding-left: 24px;
+}
+.container4{  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+}
+.con-colab{
+  height: 136px;
+  border: 1px solid #EAECF0;
+  width: 768px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px ;
+  width: 1216px;
+  height: 404px;
+  background: rgba(196, 25, 25, 0.03);
+  align-items: center;
+}
+.colaboradores{
+  color: rgba(142, 36, 36, 1);
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  padding-bottom: 16px;
+  padding-top: 64px;
+}
+.colab-desc{
+  color: #101828;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  height: 88px;
+  width: 1088px;
+}
+.dev{
+  width: 56px;
+  height: 56px;
+  padding-top: 32px;
+  padding-bottom: 16px;
+}
+.julia{
+  color: #101828;
+  height: 24px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  padding-bottom: 4px;
+}
+.desenvolvedora{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #667085;
+}
+.container5{
+  height: 430px;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.oportunidades{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  color: #101828;
+  letter-spacing: -0.02em;
+  padding-top: 96px;
+}
+.saber{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #667085;
+  padding-top: 20px;
+}
+.email{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 40px;
+
+}
+input{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 14px 12px 16px;
+  width: 360px;
+  background: #FFFFFF;
+  border: 1px solid #D0D5DD;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+}
+.direitos{
+  margin-top: 32px;
+  height: 24px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  color: #98A2B3;
+}
