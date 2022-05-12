@@ -1,2 +1,4 @@
-# Desafio-7-dias
-Desafio 7 dias que estou fazendo para melhorar minhas habilidades com uso de HTML e CSS.
+# <strong> <em> Desafio 7 dias 📆 </em> </strong>
+
+Challenge 7 days of code that i'm doing to improve my knowledge on HTML and CSS.
+
