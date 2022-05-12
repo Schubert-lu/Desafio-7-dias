@@ -4,5 +4,5 @@
 
 ## <strong> <em> 📍 Challenge 1 🚀 </em> </strong>
 
-<img src = /desafio1.gif/> 
+<img src = /desafio-1.gif/ align="center"> 
 
